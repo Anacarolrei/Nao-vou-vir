@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Aplicativo de Finanças Pessoais</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        #container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="container" >
+        <h1>Meu Aplicativo de Finanças Pessoais</h1>
+        <p>Bem-vindo ao nosso aplicativo de finanças pessoais. Aqui você pode gerenciar seu dinheiro, orçamento, investimentos e despesas de forma eficaz.</p>
+        <div id="budge" >
+            <h2>Orçamento </h2>
+            <p>Acompanhe seu orçamento mensal e defina metas financeiras.</p>
+            <ul>
+                <li>Orçamento total: R$ <span id="total-budget">2000</span></li>
+                <li>Gastos: R$ <span id="expenses">800</span></li>
+                <li>Restante: R$ <span id="remaining-budget">1200</span></li>
+            </ul>
+        </div>
+        <div id="investments">
+            <h2>Investimentos</h2>
+            <p>Monitore seus investimentos e veja seu patrimônio crescer.</p>
+            <ul>
+                <li>Patrimônio total: R$ <span id="total-assets">25000</span></li>
+                <li>Rendimentos: R$ <span id="earnings">500</span></li>
+            </ul>
+        </div>
+        <div id="expenses">
+            <h2>Despesas</h2>
+            <p>Registre suas despesas e identifique onde está gastando seu dinheiro.</p>
+            <ul>
+                <li>Aluguel: R$ <span id="rent">600</span></li>
+                <li>Alimentação: R$ <span id="food">300</span></li>
+                <li>Lazer: R$ <span id="entertainment">200</span></li>
+            </ul>
+        </div>
+    </div> 
+</body>
+</html>
